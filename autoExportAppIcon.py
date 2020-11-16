@@ -80,6 +80,23 @@ img13.save(outPutPath + 'AppIcon83.5x83.5@2x.png',"png")
 img14 = originImg.resize((1024,1024), Image.ANTIALIAS)
 img14.save(outPutPath + 'AppIcon1024x1024.png',"png")
 
+# android
+img15 = originImg.resize((72,72), Image.ANTIALIAS)
+img16 = originImg.resize((48,48), Image.ANTIALIAS)
+img17 = originImg.resize((96,96), Image.ANTIALIAS)
+img18 = originImg.resize((144,144), Image.ANTIALIAS)
+img19 = originImg.resize((192,192), Image.ANTIALIAS)
+img15.save(outPutPath + 'ic_launcher72.png',"png")
+img16.save(outPutPath + 'ic_launcher48.png',"png")
+img17.save(outPutPath + 'ic_launcher96.png',"png")
+img18.save(outPutPath + 'ic_launcher144.png',"png")
+img19.save(outPutPath + 'ic_launcher192.png',"png")
+
+# web
+img20 = originImg.resize((16,16), Image.ANTIALIAS)
+img20.save(outPutPath + 'favicon.png',"png")
+img21 = originImg.resize((512,512), Image.ANTIALIAS)
+img21.save(outPutPath + 'Icon-512.png',"png")
 # 创建Contents.json文件
 
 content = '''

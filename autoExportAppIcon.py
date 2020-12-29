@@ -2,7 +2,11 @@
 # coding: utf-8
 
 # 简介: iOS app图标生成脚本, 生成后直接拖入xcode中就行
-# 用法: python autoExportAppIcon.py /path/xxx.png
+# 1.安装pip模块：python -m ensure pip
+#		sudo easy_install pip
+# 升级pip：python -m pip install --upgrade pip
+# 2.安装image：pip install -i https://pypi.tuna.tsinghua.edu.cn/simple image
+# 3.用法: python autoExportAppIcon.py /path/xxx.png
 
 import sys
 import os
